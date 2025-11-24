@@ -1,0 +1,13 @@
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  width="256" 
+  height="256" 
+  viewBox="0 0 256 256" 
+  fill="white">
+  
+  <!-- head -->
+  <circle cx="128" cy="88" r="48"/>
+
+  <!-- body/shoulders -->
+  <path d="M48 208c0-44 36-80 80-80s80 36 80 80v16H48v-16z"/>
+</svg>

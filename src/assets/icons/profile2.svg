@@ -1,0 +1,28 @@
+<!-- Save this as profile-icon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Profile Icon</title>
+  <desc id="desc">Circular avatar with a user silhouette</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#6C8EF5"/>
+      <stop offset="1" stop-color="#4CA1FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background circle -->
+  <rect width="256" height="256" rx="48" fill="url(#g)"/>
+
+  <!-- subtle inner circle for depth -->
+  <circle cx="128" cy="96" r="56" fill="rgba(255,255,255,0.12)"/>
+
+  <!-- user silhouette -->
+  <g transform="translate(64,56)" fill="#fff" fill-rule="evenodd" stroke="none">
+    <!-- head -->
+    <circle cx="64" cy="40" r="28"/>
+    <!-- shoulders/body -->
+    <path d="M8 136c0-30.9 25.1-56 56-56s56 25.1 56 56v8H8v-8z"/>
+  </g>
+
+  <!-- thin white ring -->
+  <circle cx="128" cy="128" r="120" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="8"/>
+</svg>
